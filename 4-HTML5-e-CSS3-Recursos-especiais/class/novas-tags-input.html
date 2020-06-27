@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Novas Tags</title>
+
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!-- Estilo customizado -->
+	<link rel="stylesheet" type="text/css" href="css/novas-tags.css">
+
+</head>
+<body>
+	
+	<form action="">
+		<label for="nome">Nome*</label>
+		<input type="text" name="nome" id="nome" required="required" autofocus="autofocus">
+		<br><br>
+		
+		<!-- Email -->
+		<label for="email">Email*</label>
+		<input type="email" name="email" id="email" required="required">
+		<br><br>
+
+		<!-- Number -->
+		<label for="numero">Idade</label>
+		<input type="number" name="numero" id="numero" min="0" max="99" step="2">
+		<br><br>
+
+		<!-- URL -->
+		<label for="endereco">Site</label>
+		<input type="url" name="url" id="url" placeholder="ex: http//www.meusite.com">
+		<br><br>
+
+		<!-- Search -->
+		<label for="pesquisa">Pesquisa</label>
+		<input type="search" name="pesquisa" id="pesquisa" placeholder="digite algo">
+		<br><br>
+
+		<!-- Range -->
+		<label for="satisfacao">Satisfação</label>
+		<input type="range" name="satisfacao" id="satisfacao" min="1" max="10" value="5">
+		<br><br>
+
+		<!-- Date -->
+		<label for="data">Data</label>
+		<input type="date" name="data" id="data">
+		<br><br>
+
+		<!-- Cor -->
+		<label for="cor">Cor</label>
+		<input type="color" name="cor" id="cor">
+		<br><br>
+
+		<input type="submit" name="" value="enviar">
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Seletores</title>
+
+
+		<style type="text/css">
+			/*******************
+			Seletor universal */
+			/** {
+				border: 1px solid red;
+			}*/
+
+			/*******************
+			Seletor de texto */
+			h1 {
+				color: blue;
+			}
+
+			/*******************
+			Seletor de classe */
+			.verde {
+				color: green;
+			}
+
+			p.verde {
+				color: green;
+			}
+
+			/*******************
+			Seletor de ID */
+			#cabecalho {
+				border: 3px solid brown;
+			}
+
+			/*******************
+			Seletor de filho */
+			/*li>a {
+				color: red;	
+				text-decoration: none;
+			}*/
+
+			/*******************
+			Seletor de descendente */
+			/*li a {
+				color: green;
+			}*/
+
+			/*******************
+			Seletor de irmão adjacente */
+			/*h1+p {
+				color: hotpink;
+			}*/
+
+			/*******************
+			Seletor de irmão adjacente */
+			h1~p {
+				color: yellow;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<ul>
+			<li>
+				<a href="">Home</a>
+			</li>
+			<li>
+				<span>
+					<a href="">Sobre</a>
+				</span>
+			</li>
+		</ul>
+		<a href="">Teste</a>
+		<div id="cabecalho">
+			<p>Parágrafo 0 da página</p>
+			<h1>Título da página</h1>
+			<div>
+				<p>Parágrafo dento de div da página</p>
+			</div>
+			<p>Parágrafo 1 da página</p>
+			<p>Parágrafo 2 da página</p>
+			<div>Div</div>
+			<p>Parágrafo 3 da página</p>
+		</div>
+		<p>Parágrafo 4 da página</p>
+
+		<span class="verde">Teste span</span>
+		<p class="verde">Teste paragrafo</p>
+	</body>
+
+</html>
